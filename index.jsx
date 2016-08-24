@@ -23,7 +23,7 @@ module.exports = React.createClass({
 	},
 
 	componentWillMount(nextProps) {
-	    this.updateNodes(this.props); 
+	    this.updateNodes(this.props);
 	},
 
 	componentWillReceiveProps(nextProps) {

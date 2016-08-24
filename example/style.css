@@ -1,0 +1,49 @@
+body {
+	background: #E5E9F6;
+	color: #272727;
+}
+
+h1 {
+	text-align: center;
+}
+
+#demo-wrapper{
+	margin: auto;
+    width: 200px;
+}
+
+.element {
+	width: 100%;
+	height: 200px;
+	line-height: 200px;
+	text-align: center;
+	font-size: 200px;
+	cursor: pointer;
+	border-radius: 5px;
+	background: white;
+	cursor: default;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    -webkit-user-select: none;
+}
+
+.element:active{
+	cursor: pointer;
+}
+
+.example-enter {
+	opacity: 0;
+}
+
+.example-enter.example-enter-active {
+	transition: opacity 400ms ease;
+	opacity: 1;
+}
+
+.example-leave {
+	opacity: 1;
+}
+
+.example-leave.example-leave-active {
+	transition: opacity 400ms ease;
+	opacity: 0;
+}
